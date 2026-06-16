@@ -1,0 +1,12 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "expo-router": ["node_modules/expo-router/build/index.d.ts"],
+      "expo-haptics": ["node_modules/expo-haptics/build/Haptics.d.ts"]
+    }
+  }
+}
